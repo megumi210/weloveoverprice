@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="driver">
+      <UniqueIdentifier>{f4c56a43-f63b-4cd9-8cc5-d799e6aa60aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver\auth">
+      <UniqueIdentifier>{abecb7db-41e6-4849-b5ca-7760e966681e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver\init">
+      <UniqueIdentifier>{c414582c-f4c6-4f90-863f-8a44912efabd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{e5d996d1-deb1-44fb-9365-fa45e4f0891c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{ead37378-3db1-4369-937d-9a0db39865f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{462a1c2a-8685-4791-8d5f-595b627ad688}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="azure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="driverInit.cpp">
+      <Filter>driver\init</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Imgui\imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="genOTP.h">
+      <Filter>driver\auth</Filter>
+    </ClInclude>
+    <ClInclude Include="driverData.h">
+      <Filter>driver\init</Filter>
+    </ClInclude>
+    <ClInclude Include="driverInit.h">
+      <Filter>driver\init</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imports.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="ioctl.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="structure.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="cheese.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Imgui\imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
